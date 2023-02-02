@@ -1,0 +1,36 @@
+CRITICAL - 2023-02-02 02:17:32 --> Unable to find template "index2.html.twig" (looked into: /home1/inagasit/www0_inaga_site--dev6/app/Themes/default, /home1/inagasit/www0_inaga_site--dev6/app/Themes/default).
+#0 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('index2.html.twi...')
+#1 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Environment.php(264): Twig\Loader\FilesystemLoader->getCacheKey('index2.html.twi...')
+#2 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Environment.php(312): Twig\Environment->getTemplateClass('index2.html.twi...')
+#3 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Environment.php(280): Twig\Environment->load('index2.html.twi...')
+#4 /home1/inagasit/www0_inaga_site--dev6/vendor/noraziz/ci4-twiggy/src/Twiggy.php(555): Twig\Environment->render('index2.html.twi...', Array)
+#5 /home1/inagasit/www0_inaga_site--dev6/Modules/Home/Controllers/Nyoba.php(23): noraziz\ci4twiggy\Twiggy->display()
+#6 /home1/inagasit/www0_inaga_site--dev6/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Home\Controllers\Nyoba->ccb()
+#7 /home1/inagasit/www0_inaga_site--dev6/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Home\Controllers\Nyoba))
+#8 /home1/inagasit/www0_inaga_site--dev6/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home1/inagasit/www0_inaga_site--dev6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-02 02:20:05 --> Unable to find template "index2.html.twig" (looked into: /home1/inagasit/www0_inaga_site--dev6/app/Themes/default, /home1/inagasit/www0_inaga_site--dev6/app/Themes/default).
+#0 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('index2.html.twi...')
+#1 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Environment.php(264): Twig\Loader\FilesystemLoader->getCacheKey('index2.html.twi...')
+#2 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Environment.php(312): Twig\Environment->getTemplateClass('index2.html.twi...')
+#3 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Environment.php(280): Twig\Environment->load('index2.html.twi...')
+#4 /home1/inagasit/www0_inaga_site--dev6/vendor/noraziz/ci4-twiggy/src/Twiggy.php(555): Twig\Environment->render('index2.html.twi...', Array)
+#5 /home1/inagasit/www0_inaga_site--dev6/Modules/Home/Controllers/Nyoba.php(23): noraziz\ci4twiggy\Twiggy->display()
+#6 /home1/inagasit/www0_inaga_site--dev6/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Home\Controllers\Nyoba->ccb()
+#7 /home1/inagasit/www0_inaga_site--dev6/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Home\Controllers\Nyoba))
+#8 /home1/inagasit/www0_inaga_site--dev6/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home1/inagasit/www0_inaga_site--dev6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-02 02:20:51 --> Unable to find template "index2.html.twig" (looked into: /home1/inagasit/www0_inaga_site--dev6/app/Themes/default, /home1/inagasit/www0_inaga_site--dev6/app/Themes/default).
+#0 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('index2.html.twi...')
+#1 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Environment.php(264): Twig\Loader\FilesystemLoader->getCacheKey('index2.html.twi...')
+#2 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Environment.php(312): Twig\Environment->getTemplateClass('index2.html.twi...')
+#3 /home1/inagasit/www0_inaga_site--dev6/vendor/twig/twig/src/Environment.php(280): Twig\Environment->load('index2.html.twi...')
+#4 /home1/inagasit/www0_inaga_site--dev6/vendor/noraziz/ci4-twiggy/src/Twiggy.php(555): Twig\Environment->render('index2.html.twi...', Array)
+#5 /home1/inagasit/www0_inaga_site--dev6/Modules/Home/Controllers/Nyoba.php(23): noraziz\ci4twiggy\Twiggy->display()
+#6 /home1/inagasit/www0_inaga_site--dev6/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Home\Controllers\Nyoba->ccb()
+#7 /home1/inagasit/www0_inaga_site--dev6/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Home\Controllers\Nyoba))
+#8 /home1/inagasit/www0_inaga_site--dev6/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home1/inagasit/www0_inaga_site--dev6/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
